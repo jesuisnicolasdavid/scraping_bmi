@@ -3,7 +3,5 @@ pandas
 numpy
 df2gspread
 gspread_dataframe
-io
-requests
 gspread
 oauth2client
