@@ -1,0 +1,14 @@
+X-Cache-Status: MISS
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+Content-Encoding: gzip
+Set-Cookie: datadome=AHrlqAAAAAMACWXAl3cyB5UAVsctCQ==; Max-Age=31536000; Domain=leboncoin.fr; Path=/
+X-Upstream: 127.0.0.1:3012 (pprav04)
+Expires: Fri, 04 May 2018 20:33:27 GMT
+Vary: Accept-Encoding
+X-Datadome: protected
+Strict-Transport-Security: max-age=15768000
+Cache-Control: public
+Date: Fri, 04 May 2018 20:23:27 GMT
+Content-Type: text/html; charset=utf-8

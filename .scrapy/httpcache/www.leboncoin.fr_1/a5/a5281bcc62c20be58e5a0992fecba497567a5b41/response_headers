@@ -1,0 +1,12 @@
+Strict-Transport-Security: max-age=15768000
+Content-Encoding: gzip
+Set-Cookie: cookieFrame=1; expires=Sat, 04-May-2019 22:18:24 GMT; path=/; domain=.leboncoin.fr
+Set-Cookie: s=red1xac7ab22570e91457978514973f0cfea48cc42889; path=/; domain=.leboncoin.fr
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Fri, 04 May 2018 22:18:24 GMT
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Date: Fri, 04 May 2018 22:18:24 GMT
+P3P: CP='NOI DSP COR PSAo PSDo'
+Content-Type: text/html; charset=iso-8859-1

@@ -1,0 +1,15 @@
+X-Datadome: protected
+Strict-Transport-Security: max-age=15768000
+Content-Encoding: gzip
+Set-Cookie: cookieFrame=1; expires=Sat, 04-May-2019 20:23:45 GMT; path=/; domain=.leboncoin.fr
+Set-Cookie: s=red1xaaa4aece6571362e1b6e0f2a0e1b01687639ee4d; path=/; domain=.leboncoin.fr
+Set-Cookie: datadome=AHrlqAAAAAMAM_3MB99oD9oAVsctCQ==; Max-Age=31536000; Domain=leboncoin.fr; Path=/
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Fri, 04 May 2018 20:23:45 GMT
+Location: /support/init/?id=1&ca=2_s&request_state=form
+Pragma: no-cache
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Date: Fri, 04 May 2018 20:23:45 GMT
+P3P: CP='NOI DSP COR PSAo PSDo'
+Content-Type: text/html; charset=iso-8859-1

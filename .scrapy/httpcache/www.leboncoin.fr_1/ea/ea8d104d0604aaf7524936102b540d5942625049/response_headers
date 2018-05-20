@@ -1,0 +1,9 @@
+X-Datadome: protected
+Content-Encoding: gzip
+Set-Cookie: cookieFrame=1; domain=.leboncoin.fr; path=/; expires=Sat, 04-May-2019 20:38:08 GMT;
+Set-Cookie: datadome=AHrlqAAAAAMAuZIrN49jDmkAVsctCQ==; Max-Age=31536000; Domain=leboncoin.fr; Path=/
+Strict-Transport-Security: max-age=15768000
+Vary: Accept-Encoding,User-Agent
+Date: Fri, 04 May 2018 20:38:08 GMT
+P3P: CP='NOI DSP COR PSAo PSDo'
+Content-Type: text/html; charset=windows-1252

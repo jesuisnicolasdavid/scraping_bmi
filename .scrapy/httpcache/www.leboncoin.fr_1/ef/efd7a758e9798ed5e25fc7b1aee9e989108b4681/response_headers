@@ -1,0 +1,14 @@
+X-Cache-Status: MISS
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+Set-Cookie: datadome=AHrlqAAAAAMA5lwEMBKELVsAVsctCQ==; Max-Age=31536000; Domain=leboncoin.fr; Path=/
+X-Upstream: 127.0.0.1:3001 (pprav10)
+Expires: Fri, 04 May 2018 20:32:40 GMT
+Vary: Accept-Encoding
+X-Datadome: protected
+Location: /ventes_immobilieres/1400334661.htm/?ca=2_s
+Strict-Transport-Security: max-age=15768000
+Cache-Control: public
+Date: Fri, 04 May 2018 20:22:40 GMT
+Content-Type: text/html; charset=utf-8
