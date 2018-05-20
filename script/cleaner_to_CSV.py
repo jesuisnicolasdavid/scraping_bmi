@@ -1,8 +1,9 @@
-import subprocess
+import gspread
 import pandas as pd
 import requests
 import io
-from df2gspread import df2gspread as d2g
+from gspread_dataframe import get_as_dataframe, set_with_dataframe
+from oauth2client.service_account import ServiceAccountCredentials
 
 
 # def callSpyder():
@@ -13,13 +14,17 @@ from df2gspread import df2gspread as d2g
 
 def retrieveCSVfromScrapy():
     r = requests.get("https://storage.scrapinghub.com/items/308519/1/1?format=csv&fields=Contact,Description,Localisation,Prix,Mis_en_ligne,Origine,Pieces,Prix,Surface,Telephone2,Titre,Type_de_Bien&include_headers=1",
-                auth=('059c4862823346c0af120c8268931a40',''))
-    df = pd.read_csv(io.StringIO(r.text))   
-    spreadsheet = './New Spreadsheet'
-    wks_name = 'New Sheet Scrapy 2'
-    d2g.upload(df, spreadsheet, wks_name)
+                    auth=('059c4862823346c0af120c8268931a40',''))
+    df = pd.read_csv(io.StringIO(r.text))
+    df = df.fillna(value="--------")
+    scope = ['https://spreadsheets.google.com/feeds',
+             'https://www.googleapis.com/auth/drive']
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('./bmibmi-67d3f1f00f49.json', scope)
+    gc = gspread.authorize(credentials)
+    sheet = gc.open_by_key("13zRKY5reR-AQt_CE4uNWCcSdfIoRKgAogdg05ejfLNI")
+    worksheet = sheet.get_worksheet(0)
+    set_with_dataframe(worksheet, df)
   
-   
 
 if __name__ == '__main__':
    #callSpyder()
