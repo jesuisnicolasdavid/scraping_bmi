@@ -19,7 +19,7 @@ def retrieveCSVfromScrapy():
     df = df.fillna(value="--------")
     scope = ['https://spreadsheets.google.com/feeds',
              'https://www.googleapis.com/auth/drive']
-    credentials = ServiceAccountCredentials.from_json_keyfile_name('script/bmibmi-67d3f1f00f49.json', scope)
+    credentials = ServiceAccountCredentials.from_json_keyfile_name('resources/bmibmi-67d3f1f00f49.json', scope)
     gc = gspread.authorize(credentials)
     sheet = gc.open_by_key("13zRKY5reR-AQt_CE4uNWCcSdfIoRKgAogdg05ejfLNI")
     worksheet = sheet.get_worksheet(0)
